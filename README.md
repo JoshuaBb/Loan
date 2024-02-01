@@ -21,6 +21,6 @@ couple the project to Cats or Zio. It's been awhile since I have worked with tho
 Start the service via
 ```shell
 docker build . -t loan-service
-docker run -it -p 8080:8080 loan-servic
+docker run -it -p 8080:8080 loan-service
 ```
 Seed the data into the service via following these [instructions](seeder/README.md)
