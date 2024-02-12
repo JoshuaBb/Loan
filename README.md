@@ -1,4 +1,19 @@
-## Quick start
+# Disclaimer
+This project was created as an recruiting assignment. The intended timeline to complete it is 
+2-3 hours. There are multiple things in this project that are hacky and goofy, but most of them were due to 
+trying to get them somewhat in the 2-3 hour limit
+. 
+## Good
+1. Containerization and easy setup 
+2. Sensible project structure and a lot of tooling bundled with technologies chosen
+3. A seeder that can easily parse a very large CSV file in the service
+## Bad
+1. No unit tests
+2. An awkward mutable map in what would be in the database layer to save time. Never would do this in real development
+3. A very simple implementation
+
+Right now it is a dead repo, but leaving it in since I think there is a lot of good with it considering the time I spent. 
+
 
 # Why I Used the Toolkit I did
 ## Seeder
